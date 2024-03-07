@@ -8,8 +8,6 @@ const FriendListItem = ({avatar, name, isOnline}) => {
     <p>{name}</p>
 
     {isOnline===true?(<p>true</p>):(<p>false</p>)}
-
-    {/* <p>{isOnline}</p> */}
     
   </div>
   </li>
