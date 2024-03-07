@@ -3,13 +3,13 @@
 import { useState } from 'react'
 
 import Profile from './components/Profile/Profile.jsx'
-import userData from "./components/Profile/userData.json";
+import userData from "./userData.json";
 
 import FriendList from  './components/FriendList/FriendList.jsx'
-import friends from "./components/FriendList/friends.json"
+import friends from "./friends.json"
 
 import TransactionHistory from  './components/TransactionHistory/TransactionHistory.jsx'
-import transactions from "./components/TransactionHistory/transactions.json";
+import transactions from "./transactions.json";
 
 import './App.css'
 

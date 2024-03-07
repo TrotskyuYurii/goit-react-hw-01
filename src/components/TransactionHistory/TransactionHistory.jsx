@@ -1,4 +1,4 @@
-import TransactionItem from "./TransactionItem";
+import TransactionItem from "../TransactionItem/TransactionItem";
 
 const TransactionHistory = ({items}) => {
   return (

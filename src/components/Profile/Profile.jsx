@@ -1,3 +1,5 @@
+// import css from "./Profile.module.ccs";
+
 const Profile = ({name,tag,location, image,stats}) => {
   return (
     <div>
