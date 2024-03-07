@@ -1,6 +1,6 @@
 import TransactionItem from "./TransactionItem";
 
-const TransactionHistory = ({TransItems}) => {
+const TransactionHistory = ({items}) => {
   return (
     <div>
       <table>
@@ -13,7 +13,7 @@ const TransactionHistory = ({TransItems}) => {
           </thead>
           <tbody>
           
-          {TransItems.map(tItem=>{
+          {items.map(tItem=>{
                 return <TransactionItem key={tItem.id} type={tItem.type} amount={tItem.amount} currency={tItem.currency}/>
             })}
           
