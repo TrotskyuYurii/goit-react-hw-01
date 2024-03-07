@@ -1,30 +1,31 @@
-// import css from "./Profile.module.ccs";
+// import clsx from "clsx";
+import css from "../Profile/Profile.module.css";
 
 const Profile = ({name,tag,location, image,stats}) => {
   return (
-    <div>
+    <div       className={css.profileWrap} >
   <div>
-    <img
+    <img className={css.profileImg}
       src={image}
       alt="User avatar"
     />
-    <p>{name}</p>
-    <p>@{tag}</p>
-    <p>{location}</p>
+    <p className={css.textName} >{name}</p>
+    <p className={css.textTag} >@{tag}</p>
+    <p className={css.textTag} >{location}</p>
   </div>
 
-  <ul>
-    <li>
-      <span>Followers</span>
-      <span>{stats.followers}</span>
+  <ul className={css.profileData}>
+    <li className={css.profileDataItem}>
+      <span className={css.profileDataItemName}>Followers</span>
+      <span className={css.profileDataItemValue}>{stats.followers}</span>
     </li>
-    <li>
-      <span>Views</span>
-      <span>{stats.views}</span>
+    <li className={css.profileDataItem}>
+      <span className={css.profileDataItemName}>Views</span>
+      <span className={css.profileDataItemValue}>{stats.views}</span>
     </li>
-    <li>
-      <span>Likes</span>
-      <span>{stats.likes}</span>
+    <li className={css.profileDataItem}>
+      <span className={css.profileDataItemName}>Likes</span>
+      <span className={css.profileDataItemValue}>{stats.likes}</span>
     </li>
   </ul>
 </div>

@@ -1,0 +1,53 @@
+.profileWrap {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+
+  border: 3px solid black;
+  border-radius: 2%;
+  width: 600px;
+}
+
+.profileImg {
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.textName {
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.textTag {
+  margin: 0;
+  font-size: 30px;
+  color: gray;
+}
+
+.profileData{
+/* display:inline-block; */
+list-style: none;
+background-color: rgb(237, 237, 237);
+border-top: 3px solid rgb(187, 187, 187);
+padding: 0;
+margin: 0;
+}
+
+.profileDataItem{
+
+    
+}
+
+.profileDataItemName{
+    font-size: 30px;
+}
+
+.profileDataItemValue{
+    font-size: 30px;
+    font-weight: bolder; 
+}
