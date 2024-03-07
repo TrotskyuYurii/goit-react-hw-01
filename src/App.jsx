@@ -1,14 +1,15 @@
 // rafce - створює компонент з імортом
 
 import { useState } from 'react'
-import Profile from './components/Profile'
-import userData from "./userData.json";
 
-import FriendList from  './components/FriendList'
-import friends from "./friends.json"
+import Profile from './components/Profile/Profile.jsx'
+import userData from "./components/Profile/userData.json";
 
-import TransactionHistory from  './components/TransactionHistory'
-import transactions from "./transactions.json";
+import FriendList from  './components/FriendList/FriendList.jsx'
+import friends from "./components/FriendList/friends.json"
+
+import TransactionHistory from  './components/TransactionHistory/TransactionHistory.jsx'
+import transactions from "./components/TransactionHistory/transactions.json";
 
 import './App.css'
 
