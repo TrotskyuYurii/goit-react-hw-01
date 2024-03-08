@@ -9,3 +9,19 @@
     align-items: center;
     text-align: center;
 }
+
+.FriendListItemName{
+    font-size: x-large;
+}
+
+
+.FriendListItemOnline{
+    font-size: larger;
+    color: green;
+}
+
+
+.FriendListItemOffline{
+    font-size: larger;
+    color: red;
+}
