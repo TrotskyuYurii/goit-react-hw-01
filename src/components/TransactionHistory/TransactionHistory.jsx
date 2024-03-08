@@ -1,4 +1,6 @@
 import TransactionItem from "../TransactionItem/TransactionItem";
+import css from "../TransactionHistory/TransactionHistory.module.css";
+
 
 const TransactionHistory = ({items}) => {
   return (
