@@ -1,0 +1,11 @@
+.FriendListItem {
+    list-style: none;
+    border: 2px solid black;
+    padding: 15px 15px;
+    border-radius: 5px;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
