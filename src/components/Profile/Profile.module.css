@@ -30,7 +30,10 @@
 }
 
 .profileData{
-/* display:inline-block; */
+  display: flex;
+
+  
+
 list-style: none;
 background-color: rgb(237, 237, 237);
 border-top: 3px solid rgb(187, 187, 187);
@@ -39,8 +42,9 @@ margin: 0;
 }
 
 .profileDataItem{
-
-    
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .profileDataItemName{
@@ -50,4 +54,5 @@ margin: 0;
 .profileDataItemValue{
     font-size: 30px;
     font-weight: bolder; 
+    margin-top: 5px;
 }
