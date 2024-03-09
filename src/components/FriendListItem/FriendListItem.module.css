@@ -12,16 +12,19 @@
 
 .FriendListItemName{
     font-size: x-large;
+    margin: 0;
 }
 
 
 .FriendListItemOnline{
     font-size: larger;
     color: green;
+    margin: 0;
 }
 
 
 .FriendListItemOffline{
     font-size: larger;
     color: red;
+    margin: 0;
 }
